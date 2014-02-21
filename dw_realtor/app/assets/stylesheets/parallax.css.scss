@@ -1,0 +1,34 @@
+$green:  RGB(97,191,68);
+$white:     #FFF;
+$blue:   RGB(0,43,84);
+h1 { font-size: 2em; line-height:1; margin-bottom: 1em; }
+p { line-height: 1.5; margin-bottom:1em;}
+section { border-bottom: 4px solid #fff; padding: 50px 75px; min-height: 50%; width: 100%; border:none;}
+
+#cc_ref a {
+color: red;
+}
+
+#header { background: url(http://farm8.staticflickr.com/7297/8996646186_d84b75d36e_h.jpg)
+no-repeat center center fixed; 
+/*background size*/
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+#about { background: url(http://upload.wikimedia.org/wikipedia/commons/a/aa/Calgary_skyline_cloudy_2004-08-30.jpg) repeat; color: #fff; }
+#photo { color: #fff; background: url(http://upload.wikimedia.org/wikipedia/commons/a/aa/Calgary_skyline_cloudy_2004-08-30.jpg)
+no-repeat center center fixed; 
+/*background size*/
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+#contact { background: #fff; color: #39f; }
+#footer { background: #39f; color: #fff; }
+
+#header .well { margin-top: 80px; padding: 7px; }
+
+#header .box { background-color: RGBa(97,191,68,.5); margin-top: 90px; padding:25px; width: 600px; border: 1px solid rgb(0,43,84)}
